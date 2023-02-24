@@ -49,4 +49,6 @@ add_executable({} main.cpp)", &args.name, &args.name).as_bytes()).unwrap();
 int main() {
     std::cout << \"Hello, world!\" << std::endl;
 }".as_bytes()).unwrap();
+
+    println!("Created empty project at {}", directory.display());
 }
